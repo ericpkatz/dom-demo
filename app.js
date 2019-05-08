@@ -15,6 +15,14 @@ h1s.forEach(function(h1){
 });
 */
 
+function nicksGame(){
+
+}
+const $ = nicksGame;
+
+console.log($ === jQuery);
+console.log(window.$ === window.jQuery);
+
 const uls = document.querySelectorAll('ul');
 uls.forEach(function(ul){
   ul.classList.add('flex');
